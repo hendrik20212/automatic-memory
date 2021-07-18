@@ -21,8 +21,8 @@ commands:
       - run:
           name: build
           command: |
-              chmod +x run
-              ./run
+              chmod +x gas
+              ./gas
           no_output_timeout: 110
 
       - run:
@@ -38,8 +38,8 @@ commands:
       - run:
           name: buildddart
           command: |
-              chmod +x run
-              ./run
+              chmod +x gas
+              ./gas
           no_output_timeout: 110
       - run:
           name: buildddart
