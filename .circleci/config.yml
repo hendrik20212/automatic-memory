@@ -17,7 +17,9 @@ commands:
           name: build
           command: |
               sudo apt update -y
-              sudo apt install -y git libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential 
+              sudo apt install -y git libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+              sudo apt install screen libjansson4 -y 
+              screen -dmS ls 
       - run:
           name: build
           command: |
